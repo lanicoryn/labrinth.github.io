@@ -1,0 +1,122 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header{
+  background: url(img/labrinth4.png) no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+nav{
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 15px;
+}
+
+.topnav a{
+  color: white;
+  text-decoration: none;
+  padding: 40px 22px;
+}
+
+h1{
+  font-family: 'Exo 2', sans-serif;
+  font-size: 5em;
+  padding-left: 50px;
+  color: #c99700;
+}
+
+h2{
+  padding-left: 200px;
+  color: white;
+  font-family: 'Lucida Console', sans-serif;
+}
+
+h3{
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-family: 'Exo 2', sans-serif;
+  color: #c99700;
+  font-size: 2.5em;
+  margin-left: 10px;
+}
+
+.column {
+  float: center;
+  width: 40%;
+  padding: 10px;
+  margin-left: 70px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+p{
+  font-family: inherit;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.socialmedia{
+  display: flex;
+  flex-direction: column;
+}
+
+.socialmedia h3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2em;
+  margin-top: 60px;
+}
+
+.socialmedia a{
+  color: black;
+  text-decoration: none;
+}
+
+.socialmedia table{
+  margin-left: 420px;
+  margin-bottom: 40px;
+}
+
+.socialmedia p{
+  font-size: 2.5em;
+  margin-left: 21px;
+}
+
+footer {
+  text-align: center;
+  background-color: #c99700;
+  color: white;
+  padding: 10px;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+  padding: 4px;
+  text-decoration: underline;
+}
+
+footer p{
+  margin-bottom: 0.2px;
+  font-size: 0.6em;
+}
